@@ -114,12 +114,12 @@ exports.parseItem = (node) => ({
   authors: getAuthors(node),
   block: getBlock(node),
   duration: getDuration(node),
+  episode: getEpisode(node),
   explicit: getExplicit(node),
   image: getImage(node),
   isClosedCaptioned: getIsClosedCaptioned(node),
   order: getOrder(node),
+  season: getSeason(node),
   subtitle: getSubtitle(node),
   summary: getSummary(node),
-  episode: getEpisode(node),
-  season: getSeason(node)
 });
